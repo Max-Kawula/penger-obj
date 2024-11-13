@@ -1,13 +1,13 @@
 # about
 ---
 **penger:**  
-https://penger.neocities.org/
+https://penger.city/
 
 **model made by:**  
 https://github.com/Max-Kawula
 
-**all models licensed under CC0:**  
-https://creativecommons.org/public-domain/cc0/
+**all models licensed under PPL:**  
+https://penger.city/license
 
 # other things
 ---
