@@ -1,24 +1,27 @@
-# about
+![image](/penger/screenshots/penger-obj.png)
+
+# About
 ---
-**penger:**  
+A collection of Penger models in obj format.
+
+**Penger:**  
 https://penger.city/
 
-**model made by:**  
+**Model made by:**  
 https://github.com/Max-Kawula
 
-**all models licensed under PPL:**  
-https://penger.city/license
+**All models licensed under Penger Public License:**  
+No copyright. If you are having fun, you are allowed to use and distribute whatever you want. You can't forbid anyone to use penger freely. No requirements.
 
-# other things
+# Other things
 ---
 **inverted hulls:**  
-some objects have an inverted hull, you need backface culling to see the model correctly.
+penger.obj has an inverted hull, which is 2nd mesh used to create an outline around penger.
+this may make the model appear to be textured incorrectly depending your rendering method.
 
-in blender after you import the model you can open the python console and paste this line:
-bpy.context.object.active_material.use_backface_culling = True
+For Blender, these viewport settings will show the model correctly.
+![viewport](/penger/screenshots/viewport-settings.png)
+
+This python line will do the same but for EEVEE
+`bpy.context.object.active_material.use_backface_culling = True`
 make sure you are using the EEVEE renderer.
-
-**default materials:**  
-blender forces me to use a principled bsdf when exporting objs so the mtl file has a bunch of random values attached to it. i'll consider fixing it later.
-
-i usually just attach the texture to an emission shader to get flat shading.
