@@ -25,3 +25,7 @@ For Blender, these viewport settings will show the model correctly.
 This python line will do the same but for EEVEE
 `bpy.context.object.active_material.use_backface_culling = True`
 make sure you are using the EEVEE renderer.
+
+# More screenshots
+![image](/cyber/screenshots/cyber-penger-obj.png)
+![image](/suitger/screenshots/suitger-obj.png)
